@@ -42,7 +42,7 @@ const handleEdit=(id)=>{
                 {users && users.map((data) => (
                     <div className="card w-50 mx-auto my-2" key={data.id}>
                         <div className="card-body">
-                            <h5 className="card-title">Card title : {data.name}</h5>
+                            <h5 className="card-title">Card titles : {data.name}</h5>
                             <h5 className="card-title">Gender: {data.gender}</h5>
                             <h6 className="card-subtitle mb-2 text-muted">Card subtitle</h6>
                             <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
